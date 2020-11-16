@@ -1,0 +1,93 @@
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: tomato;
+    color: rgb(0, 0, 0);
+    border: 0px solid #e46460;
+    font-size: large;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+div.gallery {
+    /* border: 1px solid #ccc; */
+    border-radius: 20px; 
+    box-shadow: -5px 10px 15px rgb(134, 133, 133), 10px -5px 25px rgb(131, 128, 128), 10px 10px 5px rgb(129, 129, 129);
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.textbox{
+    width: 150px;
+    height: 150px;
+}
+
+h2, a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: tomato;
+    text-decoration: none;
+    
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+    color: dimgray;
+    /* font-family: "Times New Roman", Times, serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: "Lucida Console", Courier, monospace; */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 20px;
+    float: left;
+    width: 33.334%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text {
+    font-family: "Lucida Console", Courier, monospace;
+}
