@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="weight-converter.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <div class="dropdown">
+                <button class="dropbtn">Dropdown
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <div class="header">
+            <h1>Tools For You</h1>
+            <p>Best Platform For All Type Of Online Tool</p>
+        </div>
+    </header>
+
+    <div class="row">
+        <div class="main">
+            <h2 style="text-align: center;">Convert Weight</h2>
+            <!-- <div class="fakeimg" style="height:auto"> -->
+                <div style="text-align: center;">
+            <form name="calcform" autocomplete="off">
+                <h4>Metric Tons:</h4>
+                <input type="number" min="0" step="any" id="ton" name="ton" autofocus class="input">
+                <input onclick="ConvertTon()" type="button" value="Convert" class="button">
+
+                <h4>Kilograms:</h4>
+                <input type="number" min="0" step="any" id="kg" name="kg" class="input">
+                <input onclick="ConvertKg()" type="button" value="Convert" class="button">
+
+                <h4>Grams:</h4>
+                <input type="number" min="0" step="any" id="gr" name="gr" class="input">
+                <input onclick="ConvertGr()" type="button" value="Convert" class="button">
+
+                <h4>Milligrams:</h4>
+                <input type="number" min="0" step="any" id="mg" name="mg" class="input">
+                <input onclick="ConvertMg()" type="button" value="Convert" class="button">
+
+                <h4>Micrograms:</h4>
+                <input type="number" min="0" step="any" id="mcg" name="mcg" class="input">
+                <input onclick="ConvertMcg()" type="button" value="Convert" class="button">
+
+                <h4>Stones:</h4>
+                <input type="number" min="0" step="any" id="st" name="st" class="input">
+                <input onclick="ConvertSt()" type="button" value="Convert" class="button">
+
+                <h4>Pounds:</h4>
+                <input type="number" min="0" step="any" id="lb" name="lb" class="input">
+                <input onclick="ConvertLb()" type="button" value="Convert" class="button">
+
+                <h4>Ounces:</h4>
+                <input type="number" min="0" step="any" id="oz" name="oz" class="input">
+                <input onclick="ConvertOz()" type="button" value="Convert" class="button">
+            </form>
+            </div>
+            <!-- </div> -->
+            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            <h3>More Text</h3>
+            <p>Lorem ipsum dolor sit ame.</p>
+            <div class="fakeimg" style="height:60px;">Image</div><br>
+            <div class="fakeimg" style="height:60px;">Image</div><br>
+            <div class="fakeimg" style="height:60px;">Image</div>
+        </div>
+        <div class="side">
+            <h2>ADS And Posts</h2>
+            <!-- <div class="fakeimg" style="height:200px;">Image</div> -->
+            <img src="https://m.media-amazon.com/images/M/MV5BMzgxMmQxZjQtNDdmMC00MjRlLTk1MDEtZDcwNTdmOTg0YzA2XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg" style="height: auto; width: 100%;">
+            <p>Some text..</p>
+            <p>Your Description here!</p>
+            <br>
+            <img src="https://adsmonitor.com/blog/arrow-button-in-adsense/standard-arrow-button.png" style="height: auto; width: 100%;">
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+
+</body>
+<script src="weight-converter.js"></script>
+<script>
+     /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+<script>
+
+</script>
+</html>
