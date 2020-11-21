@@ -4,80 +4,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cardview</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Tools For You</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <div class="dropdown">
+                <button class="dropbtn">Dropdown
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <div class="header">
+            <h1>Tools For You</h1>
+            <p>Best Platform For All Type Of Online Tool</p>
+        </div>
     </header>
+    <div style="height: 4px;background-color: rgb(95, 86, 86);width: 100%;"></div>
     <main>
-        <h2 style="text-align: center;">Responsive cardview</h2>
-        <h4></h4>
 
-        <div class="responsive" style="margin-top: 20px;">
-            <div class="gallery">
-
-                <img src="bcpic.png" alt="Cinque Terre" width="600" height="400"
-                    style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
-                <h2 style="text-align: center;"><a href="https://edukib.blogspot.com" target="_blank">How to become a
-                        web developer</a></h2>
-                <div class="desc">
-                    <div class="desc">
+        <!-- responsive card start -->
+        <div class="container">
+            <div class="heading">
+                <h1>Online Tools For You</h1>
+            </div>
+            <div class="row">
+                <div class="card">
+                    <div class="card-header">
+                        <h1>Age Calculator</h1>
+                    </div>
+                    <div class="card-body">
                         <p>
-                            Page description here. It makes a cardview professonal. You can show text or change it
-                            using backend work. This is just a demo.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius
+                            explicabo mollitia tempore reiciendis, vel, sequi.
                         </p>
+                        <a href="#" class="btn">Calculate Now</a>
                     </div>
-                    <button class="button button1">Green 1</button>
                 </div>
-            </div>
-        </div>
-
-        <div class="responsive" style="margin-top: 20px;">
-            <div class="gallery">
-
-                <img src="ccpic.png" alt="Cinque Terre" width="600" height="400"
-                    style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
-                <h2 style="text-align: center;"><a href="https://tech.pathgriho.com" target="_blank">All about android
-                        development</a></h2>
-                <div class="desc">
-                    <div class="desc">
-                        <p> Page description here. It makes a cardview professonal. You can show text or change it
-                            using backend work. This is just a demo.
-                        </p>
-
+                <div class="card">
+                    <div class="card-header">
+                        <h1>Vue</h1>
                     </div>
-                    <button class="button button1">Green 1</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="responsive" style="margin-top: 20px;">
-            <div class="gallery">
-
-                <img src="tcpic.png" alt="Cinque Terre" width="600" height="400"
-                    style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
-                <h2 style="text-align: center; color: tomato;"><a href="https://tech.pathgriho.com"
-                        target="_blank">Standard
-                        C Library Functions</a></h2>
-                <div class="desc">
-                    <div class="desc">
+                    <div class="card-body">
                         <p>
-                            Page description here. It makes a cardview professonal. You can show text or change it
-                            using backend work. This is just a demo.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius
+                            explicabo mollitia tempore reiciendis, vel, sequi.
                         </p>
-
+                        <a href="#" class="btn">Read more</a>
                     </div>
-                    <button class="button button1">Green 1</button>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h1>Vue</h1>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius
+                            explicabo mollitia tempore reiciendis, vel, sequi.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h1>Vue</h1>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius
+                            explicabo mollitia tempore reiciendis, vel, sequi.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h1>Vue</h1>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius
+                            explicabo mollitia tempore reiciendis, vel, sequi.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h1>Vue</h1>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius
+                            explicabo mollitia tempore reiciendis, vel, sequi.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
                 </div>
             </div>
-        </div>
+            <!-- section of introduction -->
+            <div class="row2">
+                <div class="main">
+                    <img src="bcpic.png" alt="The Big Bang" title="Hello" style="height: auto; width: 100%;">
+                </div>
+
+                <div class="side">
+                    <img src="bcpic.png" alt="The Big Bang" title="Hello" style="height: auto; width: 100%;">
+                </div>
+            </div>
+
     </main>
-    <footer>
 
+    <footer>
+        <div class="footer">
+            <h1>Tools For You</h1>
+            <p>Best Platform For All Type Of Online Tool</p></br>
+            <a href="https://www.facebook.com" class="footericon"><img src="facebook.svg" class="socialicon"></a>
+            <a href="https://www.facebook.com" class="footericon"><img src="linkedin.svg" class="socialicon"></a>
+            <a href="https://www.facebook.com" class="footericon"><img src="twitter.svg" class="socialicon"></a>
+        </div>
     </footer>
 </body>
+<script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 
 </html>
